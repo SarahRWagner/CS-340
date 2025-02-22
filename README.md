@@ -174,7 +174,23 @@ The `AnimalShelter` class in `crud_mongodb.py` provides:
 
 This project successfully integrates MongoDB with Dash to create an interactive data visualization tool for Grazioso Salvare. The dashboard enables real-time analysis of animal outcomes, making it a valuable resource for rescue operations.
 
-## Contact
-For questions or contributions, please contact:  
-**Sarah Wagner**  
+## Reflection
+
+### Writing Maintainable, Readable, and Adaptable Programs
+
+Keeping code reusable and well-documented makes it easier to maintain over time. In Project One, I built a CRUD Python module to handle database interactions with MongoDB, keeping all database logic separate from the dashboard in Project Two. This approach made the dashboard more scalable and easier to debug since any database updates could be made in one place without touching the UI. It also helped with error handling and kept things clean and organized.
+
+This CRUD module isn’t just useful for this project. It could be reused in other applications that need to interact with MongoDB. It could also be expanded to support new features like data aggregation or even turned into a REST API, so multiple applications could connect to it.
+
+### Approaching a Problem as a Computer Scientist
+
+When tackling a problem, I break it down into smaller steps. For this project, I started by understanding what data Grazioso Salvare needed, then created the MongoDB database for efficient searches. After that, I built the CRUD functions, dashboard components, and interactive charts step by step. This project was different from past assignments because it required full-stack thinking, integrating a database with an interactive UI instead of just writing backend logic or algorithms.
+
+In future projects, I’d focus on scalability and security from the start, using API-based database access, indexing for performance, and role-based access control. These strategies would make databases faster, more secure, and easier to integrate with other systems.
+
+### Why Computer Science Matters
+
+Computer scientists solve real-world problems with data and technology. This project helps Grazioso Salvare make better decisions faster by organizing animal shelter data in a way that’s quick to filter and visualize. Instead of manually sorting through data, staff can instantly find the best dogs for rescue training.
+
+Beyond this, software like this can help organizations work smarter, whether it’s in healthcare, finance, or research. By making information easier to access and analyze, we help people focus on what really matters—in this case, saving lives through search-and-rescue training.
 
